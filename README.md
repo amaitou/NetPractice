@@ -1,3 +1,15 @@
+
+# Table Of Content
+
+- [What is a router?](https://github.com/amaitou/NetPractice#what-is-a-router)
+- [What is a switch?](https://github.com/amaitou/NetPractice#what-is-a-switch)
+- [Difference between routing, router, switching, and switch?](https://github.com/amaitou/NetPractice#difference-between-routing-router-switching-and-switch)
+- [Subnetting & how it works?](https://github.com/amaitou/NetPractice#subnetting--how-it-works)
+- [IP overlap](https://github.com/amaitou/NetPractice#ip-overlap)
+- [How does a router works](https://github.com/amaitou/NetPractice#how-does-a-router-work)
+- [Default router](https://github.com/amaitou/NetPractice#default-router)
+- [Resources](https://github.com/amaitou/NetPractice#resources)
+
 # Net_Practice
 
 The project comprises 10 levels (exercises) involving non-functioning network diagrams. Each level has a goal to achieve, representing issues that need to be resolved for the network to run properly. <br />
@@ -57,7 +69,7 @@ This document aims to provide an overview of fundamental networking concepts, fo
 
 	---
 
-- ### **How does a router work?**
+- ### **How does a router works?**
 
 	A router works by examining the destination IP address of incoming data packets and using its routing table to determine the best path for the packet to reach its destination. The routing table contains information about various network destinations and the associated next-hop routers or interfaces.
 
@@ -88,3 +100,12 @@ This document aims to provide an overview of fundamental networking concepts, fo
 - ### **Default router**
 
 	A default router, also known as a default gateway, is a special type of router that serves as the entry and exit point for traffic between a local network and external networks, such as the internet. When a device on a local network wants to communicate with a device on another network (outside the local network), it sends the data packets to the default router. The default router then takes care of forwarding the packets to the appropriate destination on the external network.
+
+- ### **Resources**
+
+	- [Understanding IP Address Overlaps](https://www.youtube.com/watch?v=vM1sO_huJvw&t=193s)
+	- [Understanding Subnetting](https://www.youtube.com/watch?v=5WfiTHiU4x8&list=PLIhvC56v63IKrRHh3gvZZBAGvsvOhwrRF)
+	- [Understanding Subnneting 2](https://www.youtube.com/watch?v=BWZ-MHIhqjM&list=PLIFyRwBY_4bQUE4IB5c4VPRyDoLgOdExE&pp=iAQB)
+	- [Network Fundamentals](https://www.youtube.com/watch?v=bj-Yfakjllc&list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi&pp=iAQB)
+	- [Routing Tables in Computer Network](https://www.geeksforgeeks.org/routing-tables-in-computer-network/)
+	- [Understanding Default Routes](https://www.juniper.net/documentation/us/en/software/junos/is-is/topics/concept/default-route-understanding.html#:~:text=A%20default%20route%20is%20the,of%20the%20device's%20local%20subnets.)
