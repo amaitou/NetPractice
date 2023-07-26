@@ -10,9 +10,11 @@
 - [Difference between routing, router, switching, and switch?](https://github.com/amaitou/NetPractice#difference-between-routing-router-switching-and-switch)
 - [Subnetting & how it works?](https://github.com/amaitou/NetPractice#subnetting--how-it-works)
 - [IP overlap](https://github.com/amaitou/NetPractice#ip-overlap)
-- [How does a router works](https://github.com/amaitou/NetPractice#how-does-a-router-works)
+- [How does a router work](https://github.com/amaitou/NetPractice#how-does-a-router-work)
 - [Default router](https://github.com/amaitou/NetPractice#default-router)
 - [Resources](https://github.com/amaitou/NetPractice#resources)
+
+---
 
 # Net_Practice
 
@@ -73,7 +75,7 @@ This document aims to provide an overview of fundamental networking concepts, fo
 
 	---
 
-- ### **How does a router works?**
+- ### **How does a router work?**
 
 	A router works by examining the destination IP address of incoming data packets and using its routing table to determine the best path for the packet to reach its destination. The routing table contains information about various network destinations and the associated next-hop routers or interfaces.
 
