@@ -10,7 +10,7 @@
 - [Difference between routing, router, switching, and switch?](https://github.com/amaitou/NetPractice#difference-between-routing-router-switching-and-switch)
 - [Subnetting & how it works?](https://github.com/amaitou/NetPractice#subnetting--how-it-works)
 - [IP overlap](https://github.com/amaitou/NetPractice#ip-overlap)
-- [How does a router work](https://github.com/amaitou/NetPractice#how-does-a-router-work)
+- [How does a router work?](https://github.com/amaitou/NetPractice#how-does-a-router-work)
 - [Default router](https://github.com/amaitou/NetPractice#default-router)
 - [Resources](https://github.com/amaitou/NetPractice#resources)
 
