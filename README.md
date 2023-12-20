@@ -25,7 +25,7 @@ This document aims to provide an overview of fundamental networking concepts, fo
 ---
 - ### **What is a router?**
 
-	A router is a networking device that connects different networks together and forwards data packets between them. It operates at the network layer of the OSI (Open Systems Interconnection) model. Routers use routing tables to determine the best path for data to travel from the source to the destination across multiple networks. They are essential for enabling communication between devices on different networks, such as connecting a home network to the internet.
+	A router is a networking device that connects different networks and forwards data packets between them. It operates at the network layer of the OSI (Open Systems Interconnection) model. Routers use routing tables to determine the best path for data to travel from the source to the destination across multiple networks. They are essential for enabling communication between devices on different networks, such as connecting a home network to the internet.
 
 	---
 
@@ -54,16 +54,16 @@ This document aims to provide an overview of fundamental networking concepts, fo
 	---
 - ### **Subnetting & how it works?**
 
-	Subnetting is a technique used to divide a larger IP network into smaller, more manageable sub-networks called subnets. It helps in efficient utilization of IP addresses and allows for better network organization and security.
+	Subnetting is a technique used to divide a larger IP network into smaller, more manageable sub-networks called subnets. It helps in the efficient utilization of IP addresses and allows for better network organization and security.
 
 	__How subnetting works__:
 
 	IP addresses are divided into two parts: the network portion and the host portion. The division between these portions is determined by a subnet mask.
 	Subnet masks are used to identify how many bits represent the network part and how many bits represent the host part of the IP address.
-	By borrowing bits from the host portion, an administrator can create multiple subnets, each with its own range of IP addresses.
+	By borrowing bits from the host portion, an administrator can create multiple subnets, each with its range of IP addresses.
 	Subnetting allows network administrators to control traffic flow, manage security, and optimize the use of IP addresses within the network.
 
-	> for more information check this [playlist](https://www.youtube.com/watch?v=BWZ-MHIhqjM&list=PLIFyRwBY_4bQUE4IB5c4VPRyDoLgOdExE&pp=iAQB)
+	> For more information check this [playlist](https://www.youtube.com/watch?v=BWZ-MHIhqjM&list=PLIFyRwBY_4bQUE4IB5c4VPRyDoLgOdExE&pp=iAQB)
 
 	---
 
@@ -71,7 +71,7 @@ This document aims to provide an overview of fundamental networking concepts, fo
 
 	IP overlap occurs when two or more networks have IP address ranges that conflict with each other. This conflict results in communication issues between devices in these networks since the routers are unable to differentiate between the intended destinations.
 
-	IP overlap is usually unintended and can happen during network mergers, when setting up new networks without proper planning, or due to misconfiguration. Resolving IP overlap involves reconfiguring the conflicting IP address ranges to ensure uniqueness and proper 
+	IP overlap is usually unintended and can happen during network mergers when setting up new networks without proper planning, or due to misconfiguration. Resolving IP overlap involves reconfiguring the conflicting IP address ranges to ensure uniqueness and proper 
 
 	---
 
@@ -105,14 +105,14 @@ This document aims to provide an overview of fundamental networking concepts, fo
 
 - ### **Default router**
 
-	A default router, also known as a default gateway, is a special type of router that serves as the entry and exit point for traffic between a local network and external networks, such as the internet. When a device on a local network wants to communicate with a device on another network (outside the local network), it sends the data packets to the default router. The default router then takes care of forwarding the packets to the appropriate destination on the external network.
+	A default router, also known as a default gateway, is a special type of router that serves as the entry and exit point for traffic between a local network and external networks, such as the Internet. When a device on a local network wants to communicate with a device on another network (outside the local network), it sends the data packets to the default router. The default router then takes care of forwarding the packets to the appropriate destination on the external network.
 
 	---
 - ### **Resources**
 
 	- [Understanding IP Address Overlaps](https://www.youtube.com/watch?v=vM1sO_huJvw&t=193s)
 	- [Understanding Subnetting](https://www.youtube.com/watch?v=5WfiTHiU4x8&list=PLIhvC56v63IKrRHh3gvZZBAGvsvOhwrRF)
-	- [Understanding Subnneting 2](https://www.youtube.com/watch?v=BWZ-MHIhqjM&list=PLIFyRwBY_4bQUE4IB5c4VPRyDoLgOdExE&pp=iAQB)
+	- [Understanding Subnetting 2](https://www.youtube.com/watch?v=BWZ-MHIhqjM&list=PLIFyRwBY_4bQUE4IB5c4VPRyDoLgOdExE&pp=iAQB)
 	- [Network Fundamentals](https://www.youtube.com/watch?v=bj-Yfakjllc&list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi&pp=iAQB)
 	- [Routing Tables in Computer Network](https://www.geeksforgeeks.org/routing-tables-in-computer-network/)
 	- [Understanding Default Routes](https://www.juniper.net/documentation/us/en/software/junos/is-is/topics/concept/default-route-understanding.html#:~:text=A%20default%20route%20is%20the,of%20the%20device's%20local%20subnets.)
