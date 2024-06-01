@@ -118,7 +118,7 @@ This document aims to provide an overview of fundamental networking concepts, fo
 	- [Understanding Default Routes](https://www.juniper.net/documentation/us/en/software/junos/is-is/topics/concept/default-route-understanding.html#:~:text=A%20default%20route%20is%20the,of%20the%20device's%20local%20subnets.)
 
 	---
-- ### **Contact Me**
+### **Contact Me**
 
 * [Twitter][_1]
 
